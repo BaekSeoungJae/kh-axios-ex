@@ -1,15 +1,12 @@
 import "./App.css";
-import Axios from "./Axios";
-import Categories from "./Categories";
-import NewsList from "./NewsList";
-import News from "./News";
+import MyComponent from "./ex1";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <News />
-    </>
+    <div className="title-name">
+      <MyComponent name={"곰돌이사육사"}>리액트</MyComponent>
+    </div>
   );
-}
+};
 
 export default App;
